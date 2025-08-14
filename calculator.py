@@ -23,7 +23,7 @@ def butfunc4():
     else:
         label3.config(text=a/b)
 
-win.title('guess the number')
+win.title('calculator')
 win.geometry('800x500')
 
 
@@ -48,5 +48,6 @@ button3.pack()
 
 label3=Label(master=win, text='result')
 label3.pack()
+
 
 win.mainloop()
